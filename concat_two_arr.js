@@ -1,8 +1,8 @@
 // buat function untuk "concat" dua buah array menjadi satu array
 
-
-function concat(arr1, arr2) {
-	
+function arrConcat(arr1, arr2) {
+    var arrCon = arr1.concat(arr2);
+    console.log(arrCon);
 }
 
 // TIPS:

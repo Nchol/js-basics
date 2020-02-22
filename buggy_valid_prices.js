@@ -1,7 +1,7 @@
 // kamu diminta untuk "fixing bugs" dari code dibawah ini
 // sehingga function ini bisa mereturn boolean jika "price-nya" valid.
 
-unction hasValidPrice(product) {
+function hasValidPrice(product) {
 	return (product && product.price && product.price >= 0)
 }
 
